@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./CurrentTemperature.css";
+import moment from "moment";
 
 export default function CurrentTemperature() {
   const [weather, setWeather] = useState({ ready: false });
@@ -10,7 +11,7 @@ export default function CurrentTemperature() {
     setWeather({
       ready: true,
       date: "Saturday",
-      time: "19:34",
+      time: moment().format("dddd [|] h:mm A"),
       description: response.data.condition.description,
       precipitation: "--",
       humidity: response.data.temperature.humidity,
@@ -19,8 +20,6 @@ export default function CurrentTemperature() {
       icon: response.data.condition.icon_url,
     });
   }
-
-  --hi;
 
   function search() {
     const apiKey = "oaff0b06238ce15e1bda3c4dt5f4a7ba";
@@ -38,10 +37,7 @@ export default function CurrentTemperature() {
               London
             </h1>
             <p className="weather-app-details">
-              <span id="time">
-                {weather.date} | {weather.time}
-              </span>{" "}
-              |{" "}
+              <span id="time">{weather.time}</span> |{" "}
               <span id="description" className="text-capitalize">
                 {weather.description}
               </span>
