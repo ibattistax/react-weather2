@@ -1,0 +1,37 @@
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.weather-app-temperature {
+  display: flex;
+  padding-right: 20px;
+  padding-top: 35px;
+}
+
+.weather-app-icon {
+  width: 100px;
+  height: 88px;
+  margin-top: 30px;
+}
+
+.weather-app-temperature-value {
+  font-size: 54px;
+  font-weight: bolder;
+  margin: 30px 10px 0 20px;
+}
+
+.weather-app-units {
+  margin-top: 45px;
+}

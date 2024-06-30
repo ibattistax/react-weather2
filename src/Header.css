@@ -1,0 +1,33 @@
+header {
+  border-bottom: 1px solid rgb(68, 76, 81, 0.09);
+  padding: 15px;
+}
+
+a {
+  color: #396787;
+}
+
+#search-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-input {
+  width: 450px;
+  padding: 5px 20px;
+  border: none;
+  color: #7a7a7a;
+  background-color: rgb(142, 179, 181, 0.3);
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.form-button {
+  width: 100px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: #396787;
+  color: white;
+}
