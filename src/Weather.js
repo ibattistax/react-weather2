@@ -3,7 +3,6 @@ import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 import moment from "moment";
-// import moment from "moment-timezone";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -22,6 +21,7 @@ export default function Weather(props) {
       icon: response.data.condition.icon_url,
       city: response.data.city,
     });
+    console.log(response.data);
   }
   function handleSubmit(event) {
     event.preventDefault();
