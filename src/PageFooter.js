@@ -17,11 +17,7 @@ export default function PageFooter() {
         open-sourced on GitHub
       </a>{" "}
       and{" "}
-      <a
-        href="https://tempo-app-ib.netlify.app/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://grlweathr.netlify.app/" target="_blank" rel="noreferrer">
         hosted on Netlify
       </a>
       .
