@@ -23,7 +23,6 @@ export default function Weather(props) {
       icon: response.data.condition.icon_url,
       city: response.data.city,
     });
-    console.log(response.data);
   }
   function handleSubmit(event) {
     event.preventDefault();

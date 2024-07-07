@@ -56,12 +56,18 @@ a {
   margin-top: 30px;
 }
 
+.WeatherTemperature {
+  display: flex;
+}
 .weather-app-temperature-value {
   font-size: 54px;
   font-weight: bolder;
-  margin: 30px 10px 0 20px;
+  margin: 40px 40px 0 10px;
+  margin-right: 10px;
 }
 
 .weather-app-units {
-  margin-top: 40px;
+  margin-top: 50px;
+  position: relative;
+  line-height: 1;
 }
