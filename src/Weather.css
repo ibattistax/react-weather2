@@ -1,3 +1,33 @@
+a {
+  color: #396787;
+}
+
+#search-form {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  border-bottom: solid rgb(128, 128, 128, 0.1);
+}
+
+.form-input {
+  width: 450px;
+  padding: 10px 20px;
+  border: none;
+  color: #7a7a7a;
+  background-color: rgb(142, 179, 181, 0.3);
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.form-button {
+  width: 100px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #396787;
+  color: white;
+}
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
@@ -33,5 +63,5 @@
 }
 
 .weather-app-units {
-  margin-top: 45px;
+  margin-top: 40px;
 }

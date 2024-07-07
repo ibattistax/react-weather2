@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "./Header";
-import CurrentTemperature from "./CurrentTemperature";
-import WeatherForecast from "./WeatherForecast";
+import Weather from "./Weather";
 import PageFooter from "./PageFooter";
 
 import "./App.css";
@@ -10,9 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="weather-app">
-        <Header />
-        <CurrentTemperature defaultCity="London" />
-        <WeatherForecast />
+        <Weather defaultCity="Paris" />
       </div>
       <PageFooter />
     </div>
