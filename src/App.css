@@ -1,17 +1,15 @@
 body {
   background-color: white;
   font-family: "Space Grotesk", sans-serif;
-  color: #4d1a61;
 }
 
 .weather-app {
-  background-color: lightgrey;
-
+  background-color: rgb(35, 136, 134, 0.2);
   max-width: 600px;
   margin: 30px auto;
   margin-bottom: 8px;
   padding: 30px;
-  box-shadow: 0 40px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 40px 50px rgba(65, 50, 100, 0.1);
   border-radius: 10px;
 }
 
