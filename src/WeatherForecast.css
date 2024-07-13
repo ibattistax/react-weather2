@@ -1,7 +1,12 @@
 .WeatherForecast {
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
   display: flex;
+}
+
+.col-sm {
+  display: inline-block;
+  margin: 30px;
 }
 
 .forecast-date {

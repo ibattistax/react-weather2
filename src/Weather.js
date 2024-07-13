@@ -12,7 +12,6 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      date: "Saturday",
       time: moment().format("dddd [|] h:mm A"),
       description: response.data.condition.description,
       precipitation: "--",
@@ -59,7 +58,7 @@ export default function Weather(props) {
           />
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast city={weatherData.city} />
       </div>
     );
   } else {

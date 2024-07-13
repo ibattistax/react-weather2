@@ -15,7 +15,7 @@ a {
   padding: 10px 20px;
   border: none;
   color: #7a7a7a;
-  background-color: rgb(142, 179, 181, 0.3);
+  background-color: rgb(217, 3, 104, 0.2);
   font-size: 16px;
   border-radius: 6px;
 }
@@ -25,7 +25,7 @@ a {
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
-  background-color: #396787;
+  background-color: #d90368;
   color: white;
 }
 
@@ -71,4 +71,8 @@ a {
   margin-top: 50px;
   position: relative;
   line-height: 1;
+}
+.selector {
+  font-family: "GilroyRegular";
+  font-style: italic;
 }
