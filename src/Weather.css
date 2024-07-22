@@ -14,7 +14,7 @@ a {
 .form-input {
   width: 450px;
   padding: 10px 20px;
-  border: none;
+  border: #def171 solid 2px;
   color: #7a7a7a;
 
   font-size: 16px;
@@ -26,8 +26,8 @@ a {
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
-  background-color: #c2185b;
-  color: white;
+  background-color: #def171;
+  color: black;
 }
 
 .weather-app-data {
