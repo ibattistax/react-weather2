@@ -1,7 +1,6 @@
 import React from "react";
 import Weather from "./Weather";
 import PageFooter from "./PageFooter";
-import Logo1 from "./logo1.jpg";
 
 import "./App.css";
 
